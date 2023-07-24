@@ -37,8 +37,8 @@ body:
 - type: dropdown
   id: roles-affected
   attributes:
-    label: Rôle(s) dans le RP concerné(s)
-    description: Sélectionnez quels rôles dans le jeu de rôle GTA RP seront impactés ou concernés par cette fonctionnalité.
+    label: Rôle(s) RP concerné(s)
+    description: Sélectionnez quels rôles sur le panel de SOZ seront impactés ou concernés par cette fonctionnalité.
     options:
       - Head Security
       - Administrateur
