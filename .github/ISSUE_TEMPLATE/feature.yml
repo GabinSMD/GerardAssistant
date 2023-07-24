@@ -1,0 +1,59 @@
+name: Feature request
+description: Suggest an idea for this project
+labels: [enhancement]
+body:
+- type: input
+  id: feature-name
+  attributes:
+    label: Nom de la fonctionnalité
+    description: Donnez un nom à la fonctionnalité que vous souhaitez proposer.
+  validations:
+    required: true
+
+- type: textarea
+  id: feature-description
+  attributes:
+    label: Description
+    description: Fournissez une description claire et concise de la fonctionnalité.
+  validations:
+    required: true
+
+- type: textarea
+  id: alternatives-considered
+  attributes:
+    label: Alternatives envisagées
+    description: Y a-t-il des solutions alternatives que vous avez envisagées ou des fonctionnalités existantes qui pourraient être étendues ?
+  validations:
+    required: false
+
+- type: textarea
+  id: implementation-example
+  attributes:
+    label: Exemple de mise en œuvre
+    description: Décrivez comment vous imaginez cette fonctionnalité être mise en œuvre.
+  validations:
+    required: false
+
+- type: textarea
+  id: roles-affected
+  attributes:
+    label: Rôle(s) dans le RP concerné(s)
+    description: Décrivez quels rôles dans le jeu de rôle GTA RP seront impactés ou concernés par cette fonctionnalité.
+  validations:
+    required: false
+
+- type: textarea
+  id: interaction-with-features
+  attributes:
+    label: Interaction avec d'autres fonctionnalités 
+    description: Indiquez comment cette fonctionnalité interagira avec les autres fonctionnalités existantes ou à venir.
+  validations:
+    required: false
+
+- type: textarea
+  id: additional-details
+  attributes:
+    label: Détails supplémentaires
+    description: Inclure ici tous les autres détails ou commentaires pertinents.
+  validations:
+    required: false
