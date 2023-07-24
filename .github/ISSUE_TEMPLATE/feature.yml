@@ -34,13 +34,24 @@ body:
   validations:
     required: false
 
-- type: textarea
+- type: dropdown
   id: roles-affected
   attributes:
     label: Rôle(s) dans le RP concerné(s)
-    description: Décrivez quels rôles dans le jeu de rôle GTA RP seront impactés ou concernés par cette fonctionnalité.
+    description: Sélectionnez quels rôles dans le jeu de rôle GTA RP seront impactés ou concernés par cette fonctionnalité.
+    options:
+      - Head Security
+      - Administrateur
+      - Chef d'équipe
+      - Formateur
+      - RH
+      - Sénior
+      - Confirmé
+      - Junior
+      - En Formation
   validations:
-    required: false
+    required: true
+
 
 - type: textarea
   id: interaction-with-features
