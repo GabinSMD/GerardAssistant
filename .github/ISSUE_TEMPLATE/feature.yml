@@ -1,6 +1,7 @@
-name: Feature request
-description: Suggest an idea for this project
+name: Feature
+description: Suggest an idea for improve Gérard Assistant
 labels: [enhancement]
+projects: "projects/2"
 body:
 
 - type: textarea
