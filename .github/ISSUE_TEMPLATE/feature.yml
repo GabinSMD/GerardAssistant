@@ -25,19 +25,18 @@ body:
     label: Rôle(s) RP concerné(s)
     description: Sélectionnez quels rôles sur le panel de SOZ seront impactés ou concernés par cette fonctionnalité.
     options:
-      - Head Security
-      - Administrateur
-      - Chef d'équipe
-      - Formateur
-      - RH
-      - Sénior
-      - Confirmé
-      - Junior
-      - En Formation
+      - label: Head Security
+      - label: Administrateur
+      - label: Chef d'équipe
+      - label: Formateur
+      - label: RH
+      - label: Sénior
+      - label: Confirmé
+      - label: Junior
+      - label: En Formation
   validations:
     required: true
-
-
+    
 - type: textarea
   id: interaction-with-features
   attributes:
