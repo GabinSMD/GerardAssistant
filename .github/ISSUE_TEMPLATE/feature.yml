@@ -2,13 +2,6 @@ name: Feature request
 description: Suggest an idea for this project
 labels: [enhancement]
 body:
-- type: input
-  id: feature-name
-  attributes:
-    label: Nom de la fonctionnalité
-    description: Donnez un nom à la fonctionnalité que vous souhaitez proposer.
-  validations:
-    required: true
 
 - type: textarea
   id: feature-description
@@ -19,14 +12,6 @@ body:
     required: true
 
 - type: textarea
-  id: alternatives-considered
-  attributes:
-    label: Alternatives envisagées
-    description: Y a-t-il des solutions alternatives que vous avez envisagées ou des fonctionnalités existantes qui pourraient être étendues ?
-  validations:
-    required: false
-
-- type: textarea
   id: implementation-example
   attributes:
     label: Exemple de mise en œuvre
@@ -34,7 +19,7 @@ body:
   validations:
     required: false
 
-- type: dropdown
+- type: checkboxes
   id: roles-affected
   attributes:
     label: Rôle(s) RP concerné(s)
